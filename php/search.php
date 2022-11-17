@@ -91,7 +91,7 @@
       </form>
 
 <?php
-    $conn = oci_connect("wajd", "wajd1200", "LAPTOP-FBNS74CI/XE");
+    $conn = oci_connect("YourDBName", "YourDBPassword", "TheHostName");
 
     if (!$conn)
     echo "not connected";
